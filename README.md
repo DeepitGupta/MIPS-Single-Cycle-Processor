@@ -22,12 +22,6 @@ The processor is based on a **single-cycle datapath**, where each instruction co
 - **Control Unit** – Generates signals to coordinate datapath elements
 - **Program Counter (PC)** – Tracks instruction execution
 
-<p align="center">
-  <img src="docs/mips-datapath.png" alt="MIPS Datapath" width="600"/>
-</p>
-
-> You can add your own datapath diagram under `/docs` and link it here.
-
 ## 🧪 Test Cases
 
 Simulation was done using custom **testbenches** written in Verilog. Sample test programs cover:
